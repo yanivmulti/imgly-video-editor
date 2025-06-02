@@ -6,7 +6,7 @@ export default function EditorPage() {
   useEffect(() => {
   import('@cesdk/cesdk').then(({ createEditor }) => {
       createEditor({
-        license: 'הדבק כאן את המפתח שלך', // לדוגמה: zGUzBjUGn5lefVoe...
+        license: 'zGUzBjUGn5lefVoeENFrdIWFhISxnPCGRGnM1qFiHfpH4bkKuUxmy0o3kKX8d_s9
         container: containerRef.current!,
         editorConfig: {
           theme: 'dark',
