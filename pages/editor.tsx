@@ -6,7 +6,7 @@ export default function EditorPage() {
   useEffect(() => {
   import('@cesdk/cesdk').then(({ createEditor }) => {
       createEditor({
-        license: 'zGUzBjUGn5lefVoeENFrdIWFhISxnPCGRGnM1qFiHfpH4bkKuUxmy0o3kKX8d_s9
+        license: 'zGUzBjUGn5lefVoeENFrdIWFhISxnPCGRGnM1qFiHfpH4bkKuUxmy0o3kKX8d_s9'
         container: containerRef.current!,
         editorConfig: {
           theme: 'dark',
