@@ -4,7 +4,7 @@ export default function EditorPage() {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    import('@imgly/video-editor').then(({ createEditor }) => {
+    import('@imgly/cesdk').then(({ createEditor }) => {
       createEditor({
         license: 'הדבק כאן את המפתח שלך', // לדוגמה: zGUzBjUGn5lefVoe...
         container: containerRef.current!,
